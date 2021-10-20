@@ -14,6 +14,7 @@ body {
     background-color: #1f2937;
     display: flex;
     padding-top: 10px;
+    flex-direction: column;
 }
 
 li {
@@ -22,25 +23,73 @@ li {
 
 a {
     text-decoration: none;
-    color: #e5e7eb;
-    font-size: 16px;
 }
 
 .header-nav {
     display: flex;
-    margin: 0px 140px;
-    flex-grow: 1;
+    margin: 0px 180px;
     justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 65px;
 }
 
 .header-links {
     display: flex;
     gap: 20px;
-    font-weight: 200;
 }
 
 .header-logo {
-    font-size: 20px;
+    font-size: 24px;
     color: #f9faf8;
     font-weight: bold;
+}
+
+.hero-content {
+    display: flex;
+    margin: 0px 180px 0px 180px;
+    max-height: 210px; /*not sure about this part. sized to get the image to not blow up*/
+}
+
+.left-hero {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 6px;
+}
+
+.hero-main-text {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.hero-secondary-text, .header-links a{
+    color: #e5e7eb;
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.header-links a {
+    font-size: 16px;
+}
+
+button {
+    width: 110px;
+    height: 28px;
+    border-radius: 6px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: solid #3882f6;
+    font-weight: bold;
+}
+
+.right-hero {
+   display: flex;
+   flex: 1;
+   justify-content: flex-end;
+}
+
+img {
+    max-height: 210px;
+    max-width: auto;
 }
