@@ -107,7 +107,7 @@ img {
     color: #1f2937;
     font-size: 32px;
     font-weight: bold;
-    padding-top: 30px;
+    padding-top: 40px;
     margin-bottom: 40px;
 }
 .items {
@@ -134,4 +134,29 @@ img {
     color: #1f2937;
 }
 
+.quote-section {
+    display: flex;
+    background-color: #e5e7eb;
+    color: #1f2937;
+    min-height: 400px;
+    padding: 0 22vw 0 24vw;
+    align-items: center;
+}
 
+.quote {
+    display: flex;
+    flex-direction: column;
+}
+
+.thor {
+    font-style: italic;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.thor-bold {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bolder;
+    font-size: 26px;
+}
