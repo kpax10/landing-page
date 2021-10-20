@@ -27,7 +27,7 @@ a {
 
 .header-nav {
     display: flex;
-    margin: 0px 180px;
+    margin: 0px 10vw;
     justify-content: space-between;
     align-items: flex-start;
     margin-bottom: 65px;
@@ -46,7 +46,7 @@ a {
 
 .hero-content {
     display: flex;
-    margin: 0px 180px 0px 180px;
+    margin: 0px 10vw;
     max-height: 210px; /*not sure about this part. sized to get the image to not blow up*/
 }
 
@@ -93,3 +93,45 @@ img {
     max-height: 210px;
     max-width: auto;
 }
+
+.info-section {
+    display: flex;
+    flex-direction: column;
+    min-height: 400px;
+    margin-bottom: 100px;
+}
+
+.info-header {
+    display: flex;
+    justify-content: center;
+    color: #1f2937;
+    font-size: 32px;
+    font-weight: bold;
+    padding-top: 30px;
+    margin-bottom: 40px;
+}
+.items {
+    display: flex;
+    justify-content: center;
+    column-gap: 80px;
+}
+
+.info-image {
+    height: 200px;
+    width: 200px;
+    border: solid #3882f6;
+    border-radius: 10%;
+}
+
+.item-one, .item-two, .item-three, .item-four {
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+}
+
+.item-text {
+    text-align: center;
+    color: #1f2937;
+}
+
+
